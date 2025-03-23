@@ -27,3 +27,22 @@ const func = function(){
     console.log("hello world");
     
 }
+//***********************MEMORY*************************
+// stack: primitive, heap: non-primitive
+let name1 = "rupanjana"
+let name2 = name1
+name2 = "dimpy"
+console.log(name1)
+console.log(name2)
+
+let user1 = {
+    email: "abc@gmail.com",
+    upi: "user@415"
+}
+
+let user2 = user1
+
+user2.email = "125abc@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
